@@ -1,0 +1,29 @@
+{
+    "manifast_vesrsion": 3,
+    "name": "budget Manager",
+    "version": "1.0",
+    "description": "this extension tracks your overall spending",
+    "icons": {
+        "128": "icons16.png",
+        "48": "icons16.png",
+        "16": "icons16.png"
+
+    },
+    "action": {
+        "default_icon": {
+            "16": "icons16.png",
+            "48": "icons16.png",
+            "128": "icons16.png"
+
+
+
+
+        },
+        "default_popup": "popup.html"
+
+
+    }
+
+
+
+}
