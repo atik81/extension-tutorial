@@ -65,7 +65,7 @@ def analyze_comments_api():
     
     print("Route accessed successfully. URL: ", url)
 
-    api_key = request.args.get('apiKey', 'AIzaSyCF4V_xVhqlffr-XxgbuX2ELdo93yZxqtM')  # Ensure you securely manage your API key
+    api_key = request.args.get('apiKey', '')  # Ensure you securely manage your API key
 
     if not api_key:
         return {"error": "API key is required."}, 400
